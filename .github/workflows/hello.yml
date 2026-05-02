@@ -1,9 +1,9 @@
-name: Hello Agile 
+name: Hello Agile
 on:
   push:
     branches: [ dev ] 
   pull_request:
-    branches: [ main ] //new workflow 
+    branches: [ main ] # Corrected comment style
 jobs: 
   say_hello: 
     runs-on: ubuntu-latest 
